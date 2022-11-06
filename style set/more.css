@@ -1,0 +1,83 @@
+@font-face {
+  font-family: abster;
+  src: url(../sucoding_design_house/font/abster-webfont.woff) format('woff') 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+  background-size: cover;
+}
+.container .header{
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .header h1 a{
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-family: abster;
+}
+.container .nav ul li{
+  display: inline-block;
+  margin:20px 20px;
+}
+.container .nav ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin:20px 20px;
+}
+.container .nav ul li a:hover{
+  color: #c48b9f;
+}
+
+
+.nav1{
+  color: #c48b9f;
+  font-size: 28px;
+  margin:40px 40px;
+}
+.profile-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px 100px;
+}
+.profile h2{
+  margin: 30px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28px;
+  color: darkgray;
+}
+.profile h2:hover{
+  color: #fff9c4;
+  transition: all .4s;
+}
+
+.profile ul li{
+  margin: 30px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+footer{
+  background-color: #eceff1;
+  color: black;
+  text-align: center;
+}
+footer img{
+  width: 30px; height: 30px;
+  display: inline;
+}
